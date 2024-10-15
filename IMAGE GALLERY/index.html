@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="assets/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Explore</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <h1>⚜ART GALLERY⚜</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="assets/img/0d19b22a7c8f125415905ba586a402c6.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="assets/img/4cecf73c876af31dfa603d43d3a52034.jpg" onclick="myFunction(this)" ;>
+        </div>
+        <div class="column">
+            <img src="assets/img/5af5340dc4849a7a47e21adc44ac4da5.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="assets/img/5e42a1adbd1f1309a218861e2cc8870b.jpg" onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="assets/img/9ee1404c3b71ecf1d22e418c361a53ce.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="assets/img/10af7e33e7982e5d087f921828e7af03.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="assets/img/18676d56b416da35a29710ef25ea42e3.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="assets/img/ddffa673bc54fcb3f646410796c4786e.jpg" onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+    </div>
+    <div class="button">
+
+        <button class="viewbtn">View All</button>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
